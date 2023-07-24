@@ -1,7 +1,7 @@
 {
-  "name": "koishi-plugin-roll",
+  "name": "koishi-plugin-rollfd",
   "description": "roll random points",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -13,9 +13,26 @@
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "roll",
+    "random"
   ],
   "peerDependencies": {
     "koishi": "^4.13.9"
+  },
+  "contributors": [
+    "lxl66566 <lxl66566@gmail.com>"
+  ],
+  "homepage": "https://github.com/lxl66566/koishi-plugin-rollfd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lxl66566/koishi-plugin-rollfd.git"
+  },
+  "koishi": {
+    "description": {
+      "en": "Roll random points.",
+      "zh": "roll 点"
+    },
+    "locales": ["en", "zh"]
   }
 }
